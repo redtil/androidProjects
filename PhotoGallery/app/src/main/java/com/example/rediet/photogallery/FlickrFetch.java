@@ -24,6 +24,7 @@ import javax.net.ssl.HttpsURLConnection;
 public class FlickrFetch {
     public static final String TAG = "FlickrFetchr";
     public static final String PREF_SEARCH_QUERY = "searchQuery";
+    public static final String PREF_LAST_RESULT_ID = "lastResultId";
 
     private static final String ENDPOINT = "https://api.flickr.com/services/rest/";
     private static final String API_KEY = "55291150f96b6c21c7616393fb7f995a";
